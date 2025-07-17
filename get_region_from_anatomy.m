@@ -1,5 +1,5 @@
 % the automatic region retreiver using anatomy toolbox
-% input: x y z in MNI, top N results
+% input: x y z in MNI, top N results, path to Anatomy Toolbox
 % output: top N regions + according probability
 
 function [top_probN] = get_region_from_anatomy(xyzmm, n, anatomy_path)
